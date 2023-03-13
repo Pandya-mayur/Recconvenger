@@ -2,7 +2,7 @@
   <br>
 <img src="https://github.com/Pandya-mayur/Reconvenger/blob/main/image.png" alt="reconvenger"></a>
 </h1>
-<h4 align="center">Streamline your recon and vulnerability detection process with SCRIPTKIDDI3,
+<h4 align="center">Streamline your recon and vulnerability detection process with reconvenger,
 A recon and initial vulnerability detection tool built using shell script and open source tools.</h4>
 
 
@@ -44,7 +44,7 @@ This tool mainly performs 3 tasks
 3. Run a Nuclei and other scans on previous output
 So basically, this is an autmation script for your initial recon in bugbounty
   
-## Install SCRIPTKIDDI3
+## Install Reconvenger
    reconvenger requires different tools to run successfully. Run the following command to install the latest version with all requirments-
 
  ```sh
@@ -67,16 +67,16 @@ This will display help for the tool. Here are all the switches it supports.
 
 
 [Usage:]
-   scriptkiddi3 [MODE] [FLAGS]
-   scriptkiddi3 -m EXP -d target.com -c /path/to/config.yaml
+   reconvenger [MODE] [FLAGS]
+   reconvenger -m EXP -d target.com -c /path/to/config.yaml
 
 
 [MODES:]
     ['-m'/'--mode']
          Available Options for MODE: 
-         SUB | sub | SUBDOMAIN | subdomain           Run scriptkiddi3 in SUBDOMAIN ENUMERATION mode
-         URL | url                                   Run scriptkiddi3 in URL ENUMERATION mode
-         EXP | exp | EXPLOIT | exploit               Run scriptkiddi3 in Full Exploitation mode
+         SUB | sub | SUBDOMAIN | subdomain           Run reconvenger in SUBDOMAIN ENUMERATION mode
+         URL | url                                   Run reconvenger in URL ENUMERATION mode
+         EXP | exp | EXPLOIT | exploit               Run reconvenger in Full Exploitation mode
 
 
          Feature of EXPLOI mode :                    subdomain enumaration, URL Enumeration,
@@ -93,29 +93,29 @@ This will display help for the tool. Here are all the switches it supports.
     [UPDATE:]   -u, --update    to update tool
   
 [Examples:]
-     Run scriptkiddi3 in full Exploitation mode
-         scriptkiddi3 -m EXP -d target.com
+     Run reconvenger in full Exploitation mode
+         reconvenger -m EXP -d target.com
 
 
      Use your own CONFIG file for subfinder
-         scriptkiddi3 -m EXP -d target.com -c /path/to/config.yaml
+         reconvenger -m EXP -d target.com -c /path/to/config.yaml
 
 
-     Run scriptkiddi3 in SUBDOMAIN ENUMERATION mode
-         scriptkiddi3 -m SUB -d target.com
+     Run reconvenger in SUBDOMAIN ENUMERATION mode
+         reconvenger -m SUB -d target.com
 
 
-     Run scriptkiddi3 in URL ENUMERATION mode
-         scriptkiddi3 -m SUB -d target.com
+     Run reconvenger in URL ENUMERATION mode
+         reconvenger -m SUB -d target.com
 
 ```
 
   
 ## MODES 
 ### 1. FULL EXPLOITATION MODE <br>
-Run SCRIPTKIDDI3 in FULL EXPLOITATION MODE
+Run reconvenger in FULL EXPLOITATION MODE
 ```sh
-  scriptkiddi3 -m EXP -d target.com
+  reconvenger -m EXP -d target.com
 ```
   
 FULL EXPLOITATION MODE contains following functions
@@ -126,9 +126,9 @@ FULL EXPLOITATION MODE contains following functions
 <br>
   
 ### 2. SUBDOMAIN ENUMERATION MODE <br>
-Run scriptkiddi3 in SUBDOMAIN ENUMERATION MODE
+Run reconvenger in SUBDOMAIN ENUMERATION MODE
 ```sh
-  scriptkiddi3 -m SUB -d target.com
+  reconvenger -m SUB -d target.com
 ```
 SUBDOMAIN ENUMERATION MODE contains following functions
 - Effective Subdomain Enumeration with different services and open source tools
@@ -137,23 +137,23 @@ SUBDOMAIN ENUMERATION MODE contains following functions
 <br>
   
 ### 3. URL ENUMERATION MODE <br>
-Run scriptkiddi3 in URL ENUMERATION MODE
+Run reconvenger in URL ENUMERATION MODE
 ```sh
-  scriptkiddi3 -m URL -d target.com
+  reconvenger -m URL -d target.com
 ```
 URL ENUMERATION MODE contains following functions
   - Same Feature as SUBDOMAIN ENUMERATION MODE but also identifies HTTP or HTTPS service
   
 Using your own CONFIG File for subfinder
 ```sh
-  scriptkiddi3 -m EXP -d target.com -c /path/to/config.yaml
+  reconvenger -m EXP -d target.com -c /path/to/config.yaml
 ```
 You can also provie your own CONDIF file with your API Keys for subdomain enumeration with subfinder
   
 Updating tool to latest version
 You can run following command to update tool
 ```sh
-  scriptkiddi3 -u
+  reconvenger -u
 ```
 
 An Example of config.yaml
@@ -179,8 +179,6 @@ zoomeye:
 ## For Developers
 If you have ideas for new functionality or modes that you would like to see in this tool, you can always submit a pull request (PR) to contribute your changes.
   
-If you have any other queries, you can always contact me on <a href="https://twitter.com/thecyberneh">Twitter(thecyberneh) </a>
   
-
 ## Credits
 I would like to express my gratitude to all of the open source projects that have made this tool possible and have made recon tasks easier to accomplish.
