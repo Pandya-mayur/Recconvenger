@@ -398,8 +398,8 @@ fun_runNuclei () {
 
 #for_update
 fun_update () {
-    git clone https://github.com/thecyberneh/scriptkiddi3.git
-    cd thecyberneh
+    git clone https://github.com/Pandya-mayur/Reconvenger.git
+    cd  reconvenger
     bash installer.sh
 }
 
