@@ -48,7 +48,7 @@ So basically, this is an autmation script for your initial recon in bugbounty
    reconvenger requires different tools to run successfully. Run the following command to install the latest version with all requirments-
 
  ```sh
-git clone https://github.com/Pandya-mayur/Reconvenger
+git clone https://github.com/Pandya-mayur/Reconvenger.git
 cd reconvenger
 bash installer.sh
 ```
