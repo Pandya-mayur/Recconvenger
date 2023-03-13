@@ -1,6 +1,6 @@
  <h1 align="center">
   <br>
-<img src="file:///Users/pandyapranav/Desktop/Screenshot%202023-03-13%20at%208.47.42%20PM.png" alt="reconvenger"></a>
+<img src="https://github.com/Pandya-mayur/Reconvenger/blob/main/Screenshot%202023-03-13%20at%208.47.42%20PM.png" alt="reconvenger"></a>
 </h1>
 <h4 align="center">Streamline your recon and vulnerability detection process with SCRIPTKIDDI3,
 A recon and initial vulnerability detection tool built using shell script and open source tools.</h4>
