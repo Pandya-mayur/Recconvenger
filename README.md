@@ -181,4 +181,4 @@ If you have ideas for new functionality or modes that you would like to see in t
   
   
 ## Credits
-I would like to express my gratitude to all of the open source projects that have made this tool possible and have made recon tasks easier to accomplish.
+I would like to express my gratitude to all the team members of The Linux boys and all the open source projects that have made this tool possible and have made recon tasks easier to accomplish.
