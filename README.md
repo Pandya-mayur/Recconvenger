@@ -1,6 +1,6 @@
  <h1 align="center">
   <br>
-<img src="images/scriptkiddi3Nobg.png" alt="SCRIPTKIDDI3"></a>
+<img src="file:///Users/pandyapranav/Desktop/Screenshot%202023-03-13%20at%208.47.42%20PM.png" alt="reconvenger"></a>
 </h1>
 <h4 align="center">Streamline your recon and vulnerability detection process with SCRIPTKIDDI3,
 A recon and initial vulnerability detection tool built using shell script and open source tools.</h4>
@@ -9,16 +9,11 @@ A recon and initial vulnerability detection tool built using shell script and op
 <p align="center">
 <a><img title="Made in INDIA" src="https://img.shields.io/badge/MADE%20IN-INDIA-SCRIPT?colorA=%23ff8100&colorB=%23017e40&colorC=%23ff0000&style=for-the-badge"></a>
 </p>
-<p align="center">
-<a href="https://github.com/thecyberneh/scriptkiddi3/releases"><img src="https://img.shields.io/github/downloads/thecyberneh/scriptkiddi3/total?color=green">
-<a href="https://github.com/thecyberneh/scriptkiddi3/releases/"><img src="https://img.shields.io/github/v/release/thecyberneh/scriptkiddi3?include_prereleases">
-<img scr="https://img.shields.io/github/stars/thecyberneh/scriptkiddi3?style=social">
-<br>
-<a href="https://twitter.com/thecyberneh"><img src="https://img.shields.io/twitter/follow/thecyberneh?style=social"></a>
+
 
 <p align="center">
   <a href="#how-it-works-">How it works</a> •
-  <a href="#install-scriptkiddi3">Installation</a> •
+  <a href="#install-reconvenger">Installation</a> •
   <a href="#usage">Usage</a> •
   <a href="#modes">MODES</a> •
   <a href="#for-developers">For Developers</a> •
@@ -29,14 +24,14 @@ A recon and initial vulnerability detection tool built using shell script and op
 </p>
 
  
-Introducing SCRIPTKIDDI3, a powerful recon and initial vulnerability detection tool for Bug Bounty Hunters. Built using a variety of open-source tools and a shell script, SCRIPTKIDDI3 allows you to quickly and efficiently run a scan on the target domain and identify potential vulnerabilities.
+Introducing reconvenger, a powerful recon and initial vulnerability detection tool for Bug Bounty Hunters. Built using a variety of open-source tools and a shell script, reconvenger allows you to quickly and efficiently run a scan on the target domain and identify potential vulnerabilities.
 
-SCRIPTKIDDI3 begins by performing recon on the target system, collecting information such as subdomains, and running services with nuclei. It then uses this information to scan for known vulnerabilities and potential attack vectors, alerting you to any high-risk issues that may need to be addressed.
+reconvenger begins by performing recon on the target system, collecting information such as subdomains, and running services with nuclei. It then uses this information to scan for known vulnerabilities and potential attack vectors, alerting you to any high-risk issues that may need to be addressed.
 
-In addition, SCRIPTKIDDI3 also includes features for identifying misconfigurations and insecure default settings with nuclei templates, helping you ensure that your systems are properly configured and secure.
+In addition, reconvenger also includes features for identifying misconfigurations and insecure default settings with nuclei templates, helping you ensure that your systems are properly configured and secure.
 
-SCRIPTKIDDI3 is an essential tool for conducting thorough and effective recon and vulnerability assessments.
-Let's Find Bugs with SCRIPTKIDDI3
+reconvenger is an essential tool for conducting thorough and effective recon and vulnerability assessments.
+Let's Find Bugs with reconvenger
 
 [Thanks ChatGPT for the Description]
   
@@ -50,24 +45,24 @@ This tool mainly performs 3 tasks
 So basically, this is an autmation script for your initial recon in bugbounty
   
 ## Install SCRIPTKIDDI3
-   SCRIPTKIDDI3 requires different tools to run successfully. Run the following command to install the latest version with all requirments-
+   reconvenger requires different tools to run successfully. Run the following command to install the latest version with all requirments-
 
  ```sh
-git clone https://github.com/thecyberneh/scriptkiddi3.git
-cd scriptkiddi3
+git clone https://github.com/Pandya-mayur/Reconvenger
+cd reconvenger
 bash installer.sh
 ```
   
 ## Usage 
 
 ```sh
-scriptkiddi3 -h
+reconvenger -h
 ```
 This will display help for the tool. Here are all the switches it supports.
   
 ```console
 [ABOUT:]
-   Streamline your recon and vulnerability detection process with SCRIPTKIDDI3,
+   Streamline your recon and vulnerability detection process with reconvenger,
    A recon and initial vulnerability detection tool built using shell script and open source tools.
 
 
