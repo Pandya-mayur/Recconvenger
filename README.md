@@ -1,6 +1,6 @@
  <h1 align="center">
   <br>
-<img src="https://github.com/Pandya-mayur/Reconvenger/blob/main/image.png" alt="reconvenger"></a>
+<img src="https://github.com/Pandya-mayur/Reconvenger/blob/main/Image.png"></a>
 </h1>
 <h4 align="center">Streamline your recon and vulnerability detection process with reconvenger,
 A recon and initial vulnerability detection tool built using shell script and open source tools.</h4>
